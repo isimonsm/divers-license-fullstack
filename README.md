@@ -5,7 +5,7 @@ This repository is a skeleton for implementing the divers license task for a Ful
 The frontend application is initialized using `create-react-app`. The implementation can be made directly in the `App.js` component.
 
 ## Backend
-The backend folder contains the data files needed for the task. The rest of the backend implementation (including choice of framework) is up to the interviewee.
+The backend folder contains the data files needed for the task. The rest of the backend implementation (including choice of framework) is up to the candidate.
 The only restriction is that python has to be used.
 
 The data folder contains two csv files that represent the same dataset in two different representations.
