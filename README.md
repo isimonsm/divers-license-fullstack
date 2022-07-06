@@ -14,6 +14,7 @@ The `pixels.csv` is already processed to contain three values in every row:
 1. velocity in m/s (attribute used to color the pixels, not normalized to a scale)
 2. pixel index x (index of pixel in x-direction)
 3. pixel index y (index of pixel in y-direction)
+
 This representation makes it easier to paint on a 2D canvas in the frontend.
 
 The `pointcloud.csv` holds the original data, where the x- and y-values are not normalized to a fixed grid, but rather as a position on a cartesian grid. Parsing this pointcloud progressively is harder and requires the knowledge of the range of x- and y-values in the frontend.
